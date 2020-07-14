@@ -1,0 +1,57 @@
+/* HEADER */
+.whole-header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../img/apartment.jpg);
+}
+
+/* LOGIN SECTION */
+.login-area {
+    background-color: var(--white-color);
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border-radius: 3px;
+}
+.login {
+    padding: 1rem 5rem;
+    display: grid;
+    grid-gap: 20px;
+}
+.login_heading {
+    text-align: center;
+}
+.login_heading h2:after {
+    display: block;
+    height: 2px;
+    background-color: var(--primary-color);
+    content: "";
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.login_field_input P {
+    font-size: 20px;
+}
+.login_field_input input {
+    border: none;
+    border-bottom: 2px solid var(--grey-color);
+    padding: 1rem;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.login_field_btn {
+    text-align: center;
+}
+.login_extra a {
+    text-decoration: none;
+}
+.login_extra a:hover {
+    text-decoration: underline;
+}
+.login_extra p:nth-child(1) {
+    float: left;
+}
+.login_extra p:nth-child(2) {
+    float: right;
+}

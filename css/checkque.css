@@ -1,0 +1,36 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main_content {
+        padding: 5rem 1rem;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+   .whole-header {
+        height: 80vh;
+    }
+}
+
+/* Small phones to small tablets: from 632px to 767px */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Small phones: from 481px to 631px */
+@media only screen and (max-width: 631px) {
+    .whole-header {
+        height: 60vh;
+    }
+     .main_content {
+        padding: 5rem 3rem;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+   .main_content {
+        padding: 5rem 2rem;
+    }
+}
+

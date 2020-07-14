@@ -1,0 +1,19 @@
+/* ---importing variables for css----- */
+@import url(../../css/partials/_variables.css);
+/* ---importing variables for css----- */
+@import url(../../css/partials/_general.css);
+/* ---importing responsive for css----- */
+@import url(../../css/partials/_responsive.css);
+/* ---importing general signin style for css----- */
+@import url(../../css/partials/_signin.css);
+
+/* HEADER */
+.whole-header {
+    height: 150vh !important;
+}
+
+/* LOGIN SECTION */
+.error-field {
+    display: none;
+    color: #ff0000;
+}

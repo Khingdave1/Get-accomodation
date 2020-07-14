@@ -1,0 +1,107 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: cursive, 'Lato', 'ariel',sans-serif;
+    line-height: 1.5;
+}
+
+/* ----HEADER START---- */
+.whole-header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/apartment.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header_content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+    z-index: 1;
+}
+.header_logo {
+    color: var(--white-color);
+}
+.header_logo span {
+    color: var(--primary-color);
+}
+/* Menu toggle */
+.header_menu {
+    display: none;
+    cursor: pointer;
+}
+.header_menu ion-icon {
+	font-size: 190%;
+	color: var(--white-color);
+    padding: 5px;
+    border: 2px solid var(--white-color);
+    border-radius: 4px;
+    float: right;
+}
+.open-menu .nav,
+.open-menu .header_search{
+    display: inline;
+}
+
+/* NAV AREA */
+.nav li {
+    display: inline;
+    margin: 0 12px;
+    font-size: 20px;
+}
+.nav_link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: #b4b4b4;
+}
+.nav_link--active {
+    color: var(--primary-color) !important;
+}
+
+/* SEARCH AREA */
+.header_search input {
+    padding: 10px;
+    border: 2px solid #ff6e61;
+}
+.header_search ion-icon {
+    font-size: 19px; 
+    padding: 8px;
+    margin-bottom: -15px;
+    color: var(--white-color);
+    border: 2px solid; 
+}
+.header_search input,
+.header_search ion-icon {
+    border-radius: 5px;
+}
+.header_search ion-icon:hover {
+    background-color: var(--primary-color);
+}
+/* ----HEADER END---- */
+
+/* ----BUTTON--- */
+.btn button {
+    margin: 10px;
+    padding: 15px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    cursor: pointer;
+} 
+.btn button:hover {
+    background-color: #ff4634;
+    color: var(--white-color);
+    box-shadow: var(--box-shadow);
+}
+
+

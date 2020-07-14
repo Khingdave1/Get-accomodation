@@ -1,0 +1,123 @@
+/* ---importing variables for css----- */
+@import url(partials/_variables.css);
+/* ---importing variables for css----- */
+@import url(partials/_general.css);
+/* ---importing responsive for css----- */
+@import url(partials/_responsive.css);
+
+
+/* 
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #000;
+    display: none;
+}
+.loader {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    border-radius: 60px;
+    animation: loader 0.8s linear infinite;
+    -webkit-animation: loader 0.8s linear infinite;       
+}    */
+
+/* HEADER */
+.whole-header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/apartment.jpg);
+}
+
+/* MAIN SECTION */
+.main_content {
+    grid-gap: 30px;
+    padding: 5rem 1rem;
+    font-size: 100%;
+}
+.main_content,
+.apartment-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+}
+.apartment-section {
+    box-shadow: var(--box-shadow);
+}
+.apartment-section,
+.image-sect_picture img {
+    border-radius: 5px;
+}
+.image-sect_picture img {
+    width: 100%;
+    height: 250px;
+}
+.image-sect_icons div {
+    float: left;
+    margin: 10px 15px;
+}
+.image-sect_icons ion-icon {
+    font-size: 20px;
+    border: 1.2px solid rgba(0, 0, 0, 0.49);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#like-icon:hover {
+    color: #007c00;
+}
+#bookmark-icon:hover {
+    color: #2525b5;
+}
+#comment-icon:hover,
+#share-icon:hover {
+    color: var(--grey-color);
+}
+.apartm-details_info p,
+.apartm-details {
+    margin: 10px;   
+}
+.apartm-details_info p {
+    color: var(--grey-color);
+}
+.apartm-details_info h3 {
+    text-align: center;
+}
+.apartm-details_info h3:after {
+    display: block;
+    height: 2px;
+    background-color: var(--primary-color);
+    content: "";
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.apartm-details_info ion-icon {
+    margin: 0 10px; 
+} 
+
+/*  FOOTER  */
+footer {
+    background-color: #191818;
+    color: #6f6f6f;
+}
+.footer-content {
+    padding: 15px 0;
+    text-align: center;
+}
+.footer-content_icons ion-icon {
+    font-size: 30px;
+    margin: 10px;
+}
+.footer-content_icons a {
+    color: #6f6f6f;
+}
+.footer-content_icons a:hover {
+    color: var(--white-color);
+}

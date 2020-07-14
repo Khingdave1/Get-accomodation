@@ -1,0 +1,71 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .nav,
+    .header_search {
+        display: none;
+    }
+    .header_menu {
+        display: inline;
+    }
+    .header_content {
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 15px;
+    }
+    
+   
+}
+
+/* Small phones to small tablets: from 632px to 767px */
+@media only screen and (max-width: 767px) {
+    /* NAV AREA */
+    .nav li {
+        margin: 0 10px;
+        font-size: 17px;
+    }
+    /* SEARCH AREA */
+    .header_search input {
+        padding: 8px;
+        width: 150px;
+    }
+    .header_search ion-icon { 
+        padding: 6px;
+        margin-bottom: -12px;
+    }
+}
+
+/* Small phones: from 481px to 631px */
+@media only screen and (max-width: 631px) {
+    .header_logo {
+        font-size: 110%;
+    }
+    .header_menu ion-icon {
+        font-size: 130%;
+    }
+    .header_content {
+        padding: 2%;
+    }
+    .header_content:last-child {
+        align-items: flex-start;  /* search div should not align center */
+    }
+    /* NAV AREA */
+    .nav li {
+        display: block;
+        margin: 12px;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .header_content {
+        grid-gap: 10px;
+    }
+    .header_search input {
+        width: 100px;
+    }
+}
+

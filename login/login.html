@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" href="css/login.css">
+      <link rel="stylesheet" href="css/login_queries.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      
+      <title>Practice 5</title>
+    </head>
+    <body>
+        <div class="whole-header">
+            <header class="header">
+                <div class="header_content">
+                    <h1 class="header_logo">Get <span>accomodation</span></h1>
+                    <a href="#" class="header_menu" id="menu"><ion-icon id="menu-icon" name="menu-outline"></ion-icon></a> <!-- menu toggle icon --->
+                    <nav class="nav" id="nav-area">
+                        <ul>
+                            <a href="../index.html" class="nav_link"><li>Apartments</li></a>
+                            <a href="login.html" class="nav_link nav_link--active"><li>Login</li></a>
+                            <a href="../create_acct/create_acct.html" class="nav_link"><li>Sign up</li></a>
+                            <a href="#" class="nav_link"><li>About</li></a>
+                            <a href="#" class="nav_link"><li>Sell</li></a>
+                        </ul>
+                    </nav>
+                    <div class="header_search" id="search-area">
+                        <input type="text" placeholder="Need something?">
+                        <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </header>
+            <div class="login-area">
+                <div class="login">
+                    <div class="login_heading">
+                        <h2>Login!</h2>
+                    </div>
+                    <div class="login_field">
+                        <div class="login_field_input username-field">
+                            <p>Username</p>
+                            <input type="text" placeholder="E.g Khingdave" id="username">
+                        </div>
+                        <div class="login_field_input password-field">
+                            <p>Password</p>
+                            <input type="password" placeholder="" id="password">
+                        </div>
+                        <div class="login_field_btn btn">
+                            <button type="submit" class="log-me" id="log-btn">Log me in</button>
+                        </div>
+                    </div>
+                    <div class="login_extra">
+                        <p><a href="#">Forgot password?</a></p>
+                        <p>New here?<a href="../create_acct/create_acct.html"> Sign up!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+           
+        <script src="js/login.js"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    </body>
+</html>
+

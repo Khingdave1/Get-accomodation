@@ -1,0 +1,47 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .login {
+        padding: 1rem 3rem;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .login-area {
+        width: 60%;
+        left: 20%;
+
+    }
+}
+
+/* Small phones to small tablets: from 632px to 767px */
+@media only screen and (max-width: 767px) {
+    .login {
+        padding: 1rem 2rem;
+    }
+}
+
+/* Small phones: from 481px to 631px */
+@media only screen and (max-width: 631px) {
+    .login_extra p:first-child {
+        float: none;
+    }
+    .login_extra p:last-child {
+        float: none;
+    }
+    .login_extra p {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .login-area {
+        width: 70%;
+        left: 15%;
+    }
+}
+
