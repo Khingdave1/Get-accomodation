@@ -121,3 +121,6 @@ footer {
 .footer-content_icons a:hover {
     color: var(--white-color);
 }
+.footer-content-text a {
+    color: var(--white-color);
+}
